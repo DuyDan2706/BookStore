@@ -1,0 +1,75 @@
+[
+    {
+      "id": "1",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publishedDate": "1960-07-11",
+      "description": "The story of racial injustice and the loss of innocence in the American South during the Great Depression.",
+      "price": 12.99
+    },
+    {
+      "id": "2",
+      "title": "1984",
+      "img":"https://m.media-amazon.com/images/I/513P6Sc2SHL._AC_UF894,1000_QL80_.jpg",
+      "author": "George Orwell",
+      "publishedDate": "1949-06-08",
+      "description": "A dystopian novel set in a totalitarian society ruled by the Party, which has total control over every aspect of people's lives.",
+      "price": 10.99
+    },
+    {
+      "id": "3",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "publishedDate": "1951-07-16",
+      "description": "The story of Holden Caulfield, a teenage boy who struggles with alienation and loss after being expelled from his prep school.",
+      "price": 9.99
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "img":"https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg",
+      "author": "Jane Austen",
+      "publishedDate": "1813-01-28",
+      "description": "A romantic novel that follows the emotional development of Elizabeth Bennet, who learns the error of making hasty judgments.",
+      "price": 8.99
+    },
+    {
+      "id": "5",
+      "title": "The Hobbit",
+      "img":"https://upload.wikimedia.org/wikipedia/vi/thumb/5/57/Dvd_cover_the_hobbit.jpg/220px-Dvd_cover_the_hobbit.jpg",
+      "author": "J.R.R. Tolkien",
+      "publishedDate": "1937-09-21",
+      "description": "A fantasy novel about the adventures of hobbit Bilbo Baggins, who is hired by the wizard Gandalf to help a group of dwarves reclaim their treasure from a dragon.",
+      "price": 11.99
+    },
+    {
+      "id": "6",
+      "title": "The Adventures of Huckleberry Finn",
+      "img":"https://upload.wikimedia.org/wikipedia/commons/6/61/Huckleberry_Finn_book.JPG",
+      "author": "Mark Twain",
+      "publishedDate": "1884-12-10",
+      "description": "A novel about the adventures of a young boy named Huck Finn and his friend Jim, a runaway slave, as they travel down the Mississippi River.",
+      "price": 7.99
+    },
+    {
+      "id": "7",
+      "title": "The Lord of the Rings",
+      "img":"https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+      "author": "J.R.R. Tolkien",
+      "publishedDate": "1954-07-29",
+      "description": "A high fantasy novel that follows the quest of hobbit Frodo Baggins to destroy the One Ring, which was created by the Dark Lord Sauron.",
+      "price": 14.99
+    },
+    {
+      "id": "8",
+      "title": "The Great Gatsby",
+      "img":"https://m.media-amazon.com/images/M/MV5BMTkxNTk1ODcxNl5BMl5BanBnXkFtZTcwMDI1OTMzOQ@@._V1_.jpg",
+      "author": "F. Scott Fitzgerald",
+      "publishedDate": "1925-04-10",
+      "description": "The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+      "price": 9.99
+    }
+    
+  ]
