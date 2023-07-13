@@ -3,6 +3,10 @@
 ### Created by
 
 [DanTD](https://www.facebook.com/duydan272000)
+  
+  ### LinkDemo website
+
+  (https://mybookstore-delta.vercel.app/)
 
 ## Functions in the project
 
@@ -10,11 +14,11 @@
   - View All Book
   - pagination
 - Product detail page:
-- Show detailed information
-- Create a comment section below book data section.
-- Allow users to add new comments.
-- Allow users to reply to other comments with one level of nesting.
-- Display comments and their nested replies appropriately.
+  - Show detailed information
+  - Create a comment section below book data section.
+  - Allow users to add new comments.
+  - Allow users to reply to other comments with one level of nesting.
+  - Display comments and their nested replies appropriately.
 
 ## TECH
 
