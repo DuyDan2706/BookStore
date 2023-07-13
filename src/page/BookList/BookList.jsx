@@ -14,7 +14,6 @@ export default function BookList() {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber)
   }
-
   return (
     <div className='bg-white py-6'>
       <div className='mx-auto max-w-7xl py-4'>

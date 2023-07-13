@@ -6,9 +6,12 @@ import BookData from '../../Data/BookData.json'
 import Breadcrumbs from '@mui/material/Breadcrumbs'
 import Typography from '@mui/material/Typography'
 import CommentSection from '../Comment/Comment'
+
+
 export default function BookDetail() {
   const { id } = useParams()
 
+  
   const book = BookData.find((item) => item.id === id)
   console.log('dan', book)
   return (
