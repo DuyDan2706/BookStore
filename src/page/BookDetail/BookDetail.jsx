@@ -8,12 +8,20 @@ import Typography from '@mui/material/Typography'
 import CommentSection from '../Comment/Comment'
 
 
+
 export default function BookDetail() {
   const { id } = useParams()
 
   
   const book = BookData.find((item) => item.id === id)
-  console.log('dan', book)
+
+  const formatPublishedDate = (dateString) => {
+    const parts = dateString.split('-');
+    const year = parts[0];
+    const month = parts[1];
+    const day = parts[2];
+    return `${day}/${month}/${year}`;
+  };
   return (
     <div className='bg-white py-6'>
     <div className='bg-white p-4 '>
@@ -48,7 +56,7 @@ export default function BookDetail() {
               </div>
               <div className='mt-4 sm:mt-0'>
                 <span>Ngày xuất bản:</span>
-                <span className='text-blue-400 mx-2'>{book.publishedDate}</span>
+                <span className='text-blue-400 mx-2'>{formatPublishedDate(book.publishedDate)}</span>
               </div>
             </div>
             <div className='mt-8 flex items-center px-5 py-4'>
