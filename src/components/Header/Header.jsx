@@ -1,19 +1,6 @@
-import React, { useState } from 'react'
 
-// eslint-disable-next-line react/prop-types
-export default function Header({ onSearch }) {
-  const [searchTerm, setSearchTerm] = useState('');
+export default function Header() {
 
-  // eslint-disable-next-line no-unused-vars
-  const handleInputChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
-
-  // eslint-disable-next-line no-unused-vars
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    onSearch(searchTerm);
-  };
   return (
     <div className='bg-blue-200 pb-5 pt-2 text-white'>
       <div className='mx-auto max-w-7xl py-4'>
@@ -42,8 +29,6 @@ export default function Header({ onSearch }) {
               <input
                 type='text'
                 name='Search'
-                value={searchTerm}
-                onChange={handleInputChange}
                 className='flex-grow border-none bg-transparent px-3 py-2 text-black outline-none'
                 placeholder='Tìm kiếm sản phẩm mong muốn...'
               ></input>

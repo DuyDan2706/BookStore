@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   extends: [
@@ -8,7 +8,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:jsx-a11y/recommended',
     'eslint-config-prettier',
-    'prettier',
+    'prettier'
   ],
   plugins: ['prettier'],
   settings: {
@@ -19,19 +19,16 @@ module.exports = {
     'import/resolver': {
       node: {
         paths: [path.resolve(__dirname, '')],
-        extensions: ['.js', '.jsx', '.ts', '.tsx']
+        extensions: ['.js', '.jsx']
       }
     }
   },
   env: {
-    node: true,
+    node: true
   },
   rules: {
-    // Tắt rule yêu cầu import React trong file jsx
     'react/react-in-jsx-scope': 'off',
-    // Cảnh báo khi thẻ <a target='_blank'> mà không có rel="noreferrer"
     'react/jsx-no-target-blank': 'warn',
-    // Tăng cường một số rule prettier (copy từ file .prettierrc qua)
     'prettier/prettier': [
       'warn',
       {
@@ -43,8 +40,8 @@ module.exports = {
         useTabs: false,
         singleQuote: true,
         printWidth: 120,
-        jsxSingleQuote: true,
-      },
-    ],
-  },
-};
+        jsxSingleQuote: true
+      }
+    ]
+  }
+}

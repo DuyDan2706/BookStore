@@ -3,10 +3,10 @@
 ### Created by
 
 [DanTD](https://www.facebook.com/duydan272000)
-  
-  ### LinkDemo website
 
-  (https://mybookstore-delta.vercel.app/)
+### LinkDemo website
+
+(https://mybookstore-delta.vercel.app/)
 
 ## Functions in the project
 
@@ -26,28 +26,28 @@
 - Router: React Router
 - Build tool: Yarn react app
 
-### Bộ ESLint và Prettier
+### installation instructions (Yarn add )
 
-- ESLint: linter (bộ kiểm tra lỗi) chính
+- ESLint
 
-- Prettier: code formatter chính
+- Prettier
 
-- @typescript-eslint/eslint-plugin: ESLint plugin cung cấp các rule cho Typescript
+- eslint-plugin
 
-- @typescript-eslint/parser: Parser cho phép ESLint kiểm tra lỗi Typescript.
+- parser
 
-- eslint-config-prettier: Bộ config ESLint để vô hiệu hóa các rule của ESLint mà xung đột với Prettier.
+- eslint-config-prettier
 
-- eslint-plugin-import: Để ESLint hiểu về cú pháp `import...` trong source code.
+- eslint-plugin-import
 
-- eslint-plugin-jsx-a11y: Kiểm tra các vấn đề liên quan đến accessiblity (Tính thân thiện website, ví dụ cho thiết bị máy đọc sách).
+- eslint-plugin-jsx-a11y
 
-- eslint-plugin-react: Các rule ESLint cho React
+- eslint-plugin-react
 
-- eslint-plugin-prettier: Dùng thêm 1 số rule Prettier cho ESLint
+- eslint-plugin-prettier
 
-- prettier-plugin-tailwindcss: Sắp xếp class tailwindcss
+- prettier-plugin-tailwindcss
 
-- eslint-plugin-react-hooks: ESLint cho React hook
+- eslint-plugin-react-hooks
 
 - Taiwindcss
